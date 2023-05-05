@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "primuslearning-app"
+    bucket = "bucket-project2-rk"
     region = "us-east-1"
     key = "eks/terraform.tfstate"
   }
